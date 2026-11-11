@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name — Frontend Developer, Hosting & Deployment</title>
+<meta name="description" content="Frontend web developer who also handles your domain, hosting and deployment, so your site goes live without hassle.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">Your Name</a>
+  <button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
+  <nav id="nav">
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a class="btn small" href="#contact">Hire me</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div>
+      <h1>I build your website, then put it online for you.</h1>
+      <p class="lead">Frontend development, domain, hosting and deployment from one person. You get a live site, not a folder of files.</p>
+      <p class="cta"><a class="btn" href="#contact">Start a project</a> <a class="btn ghost" href="#work">See my work</a></p>
+    </div>
+    <div class="term" aria-label="Example deployment log">
+      <div class="term-bar"><i></i><i></i><i></i><span>deploy</span></div>
+      <ol id="log">
+        <li>Domain <b>yourclient.com</b> connected</li>
+        <li>Build finished in <b>1.2s</b></li>
+        <li>SSL certificate issued</li>
+        <li>Site is <b class="live">live</b></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="services" class="wrap">
+    <h2>What I do for you</h2>
+    <dl class="services">
+      <div><dt>Frontend development</dt><dd>Fast, responsive websites in HTML, CSS and JavaScript that look right on phone, tablet and desktop.</dd></div>
+      <div><dt>Domain setup</dt><dd>I help you pick, register and connect a domain, including DNS records and email forwarding.</dd></div>
+      <div><dt>Hosting</dt><dd>Reliable hosting with SSL, backups and monitoring, so your site stays up.</dd></div>
+      <div><dt>Deployment</dt><dd>Your code goes from my machine to your live site, and every later update ships the same way.</dd></div>
+    </dl>
+  </section>
+
+  <section id="work" class="wrap">
+    <h2>Selected work</h2>
+    <p class="sub">Replace these three with your own projects.</p>
+    <div class="projects">
+      <article>
+        <div class="shot"><span></span><span></span><span></span></div>
+        <h3>Project one</h3>
+        <p>Business website with contact form. Built, hosted and deployed.</p>
+        <a href="#">View live site</a>
+      </article>
+      <article>
+        <div class="shot alt"><span></span><span></span><span></span></div>
+        <h3>Project two</h3>
+        <p>Online store front page with product filters.</p>
+        <a href="#">View live site</a>
+      </article>
+      <article>
+        <div class="shot alt2"><span></span><span></span><span></span></div>
+        <h3>Project three</h3>
+        <p>Landing page for a local service business.</p>
+        <a href="#">View live site</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="wrap about">
+    <div>
+      <h2>About me</h2>
+      <p>I'm a frontend web developer. Most clients don't want to learn about servers and DNS, so I handle that part too. You explain what you need, and I take it from design to a working address on the internet.</p>
+      <p>Write two or three lines here about your experience and how you work with clients.</p>
+    </div>
+    <ul class="skills">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive design</li><li>Domains & DNS</li><li>Hosting</li><li>Git</li><li>Deployment</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="wrap contact">
+    <h2>Tell me about your project</h2>
+    <p class="sub">I reply within one working day.</p>
+    <form id="form">
+      <label>Your name <input name="name" required autocomplete="name"></label>
+      <label>Email <input name="email" type="email" required autocomplete="email"></label>
+      <label class="full">What do you need? <textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+    <p class="direct">Or write directly: <a href="mailto:you@example.com">you@example.com</a> · <a href="https://wa.me/920000000000">WhatsApp</a></p>
+  </section>
+</main>
+
+<footer class="wrap"><small>© <span id="yr"></span> Your Name. Frontend, hosting and deployment.</small></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
